@@ -1,0 +1,53 @@
+body {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    /* justify-content: center; */
+}
+
+.num_row,
+.top_row,
+.home_row,
+.bottom_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+}
+
+
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    flex: 1 1 auto;
+    width: 75px;
+    height: 75px;
+}
+
+.key.delete,
+.key.tab {
+    width: 125px;
+}
+
+.key.capslock,
+.key.return {
+    width: 135px;
+}
+
+.key.shift {
+    width: 145px;
+}
