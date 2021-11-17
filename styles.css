@@ -51,3 +51,7 @@ body {
 .key.shift {
     width: 145px;
 }
+
+.key.space {
+    width: 500px;
+}
