@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #4d6588;
 }
 
 .container {
@@ -33,14 +34,17 @@ body {
     justify-content: center;
     align-items: center;
     border:2px solid black;
+    border-radius: 8px;
     flex: 1 1 auto;
     width: 75px;
     height: 75px;
+    background-color: #f0daec;
 }
 
 .key.delete,
 .key.tab {
     width: 125px;
+    background-color: rgb(255, 133, 89);
 }
 
 .key.capslock,
@@ -50,8 +54,10 @@ body {
 
 .key.shift {
     width: 145px;
+    background-color: rgb(157, 237, 240);
 }
 
 .key.space {
     width: 500px;
+    background-color: rgb(247, 167, 240);
 }
